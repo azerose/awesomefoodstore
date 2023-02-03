@@ -4,13 +4,13 @@ import LayoutHeader from "./header";
 
 const Layout = (props: ILayoutProps) => {
   return (
-    <Wrapper>
-      <>
+    <>
+      <Wrapper>
         <LayoutHeader />
-        <MainContents>{props.children}</MainContents>
+        <div style={{ width: "100%" }}>{props.children}</div>
         <LayoutFooter />
-      </>
-    </Wrapper>
+      </Wrapper>
+    </>
   );
 };
 
@@ -26,8 +26,4 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 50px 0;
-`;
-
-const MainContents = styled.div`
-  min-height: 700px;
 `;
