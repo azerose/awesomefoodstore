@@ -7,7 +7,7 @@ const Layout = (props: ILayoutProps) => {
     <>
       <Wrapper>
         <LayoutHeader />
-        <div style={{ width: "100%", minHeight: "700px" }}>
+        <div style={{ width: "100%", minHeight: "600px" }}>
           {props.children}
         </div>
         <LayoutFooter />

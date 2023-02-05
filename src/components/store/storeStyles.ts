@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Modal } from "antd";
 
 export const HeaderTitle = styled.h1`
   color: #464ea3;
@@ -57,4 +58,11 @@ export const GridItems = styled.img`
   height: 180px;
   background-size: cover;
   border-radius: 10px;
+  cursor: pointer;
+`;
+
+export const DetailModal = styled(Modal)`
+  min-width: 800px;
+  max-width: 1000px;
+  margin-top: calc((50% - 50vh));
 `;

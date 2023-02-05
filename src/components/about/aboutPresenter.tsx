@@ -25,6 +25,7 @@ const AboutPresenter = () => {
               <S.SkillList>Next.js</S.SkillList>
               <S.SkillList>Typescript</S.SkillList>
               <S.SkillList>emotion</S.SkillList>
+              <S.SkillList>antd</S.SkillList>
             </S.Skills>
           </div>
           <div>
