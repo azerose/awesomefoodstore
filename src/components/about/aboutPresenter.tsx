@@ -31,10 +31,13 @@ const AboutPresenter = () => {
           <div>
             <S.Title>프로젝트 실행방법</S.Title>
             <S.Docs>
-              1. vscode를 실행시켜 terminal에 yarn run server를 실행시킨다
+              1. vscode를 실행시켜 terminal에 yarn install을 실행시킨다
             </S.Docs>
             <S.Docs>
-              2. 이후 새로운 terminal을 실행시켜 yarn dev를 시켜서 실행
+              2. vscode를 실행시켜 terminal에 yarn run server를 실행시킨다
+            </S.Docs>
+            <S.Docs>
+              3. 이후 새로운 terminal을 실행시켜 yarn dev를 시켜서 실행
             </S.Docs>
           </div>
         </S.ContentsBox>
